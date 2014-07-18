@@ -132,12 +132,11 @@ try:
 			print "No active alerts.. sleeping until " + ft[11:19]
 			while datetime.datetime.now() < finish_time:
 # Flashes the LED periodically to show that the programme has not hung
-				for x in range (0,5):
-					set_col("off")
-					time.sleep(0.05)
+				for x in range (0,6):
 					set_col("yellow")
 					time.sleep(0.05)
 					set_col("off")
+					time.sleep(0.05)
 				print "Still sleeping.. waking up at " + ft[11:19]
 				time.sleep(20)
 # Code to execute if there are alerts in the array
