@@ -1,4 +1,4 @@
-#!/usr/bin/python
+ #!/usr/bin/python
 
 # Import all necessary libraries
 import time
@@ -35,7 +35,7 @@ def set_col(col):
 	RVAL = int(colour[0])
 	GVAL = int(colour[1])
 	BVAL = int(colour[2])
-# Logic to format passed in colour in the required way for SetLedBorg
+# Set the GPIO pins to the VAL as determined from colourmap
 	wiringpi.digitalWrite(PIN_RED, RVAL)
 	wiringpi.digitalWrite(PIN_GREEN, GVAL)
 	wiringpi.digitalWrite(PIN_BLUE, BVAL)

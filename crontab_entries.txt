@@ -1,0 +1,7 @@
+PATH=/home/pi/projects/ledborg:/bin:/usr/bin
+
+00 06 * * 1-5 sudo /home/pi/projects/ledborg/wipiborg.py &
+30 08 * * 1-5 sudo /home/pi/projects/ledborg/killborg.sh
+
+# * * * * * touch /tmp/.cron_is_working
+
