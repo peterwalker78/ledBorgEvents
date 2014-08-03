@@ -1,4 +1,4 @@
- #!/usr/bin/python
+#!/usr/bin/python
 
 # Import all necessary libraries
 import time
